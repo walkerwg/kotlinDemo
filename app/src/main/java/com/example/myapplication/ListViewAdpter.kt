@@ -1,6 +1,6 @@
 package com.example.myapplication
 
-import android.view.View
+import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -10,7 +10,11 @@ class ListViewAdpter(var items: List<String>, val clickListener: MainActivity) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
 
-        return ListViewHolder(TextView(parent.context))
+        val textView = TextView(parent.context)
+        textView.height = 100
+        textView.gravity = Gravity.CENTER
+        textView.textSize = 20.0F
+        return ListViewHolder(textView)
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
@@ -25,6 +29,10 @@ class ListViewAdpter(var items: List<String>, val clickListener: MainActivity) :
     override fun getItemCount(): Int {
 
         return  items.count()
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        return super.getItemViewType(position)
     }
 
     class  ListViewHolder(var textView: TextView) : RecyclerView.ViewHolder(textView)

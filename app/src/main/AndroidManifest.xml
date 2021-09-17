@@ -23,6 +23,7 @@
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize"
             />
+        <activity android:name=".test.weather.WeatherActivity"/>
     </application>
 
 </manifest>
