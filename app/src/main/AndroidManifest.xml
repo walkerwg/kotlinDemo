@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".ui.DataBindingActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +19,12 @@
         </activity>
         <activity
             android:name="io.flutter.embedding.android.FlutterActivity"
-            android:theme="@style/Theme.MyApplication"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
-            android:windowSoftInputMode="adjustResize"
-            />
-        <activity android:name=".test.weather.WeatherActivity"/>
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".test.weather.WeatherActivity" />
+
     </application>
 
 </manifest>
