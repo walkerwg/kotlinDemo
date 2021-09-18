@@ -1,12 +1,9 @@
-package com.example.myapplication.ui
+package com.example.myapplication.databinding
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityDataBinding
-import com.example.myapplication.databinding.ActivityDataBindingImpl
 
 class DataBindingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
