@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/ic_home"
+        android:title="首页">
+
+    </item>
+
+    <item
+        android:id="@+id/tool"
+        android:icon="@mipmap/ic_tool"
+        android:title="tool">
+
+    </item>
+    <item
+        android:id="@+id/my"
+        android:icon="@mipmap/ic_my"
+        android:title="my">
+
+    </item>
+    <item
+        android:id="@+id/my2"
+        android:icon="@mipmap/ic_my"
+        android:title="my2">
+
+    </item>
+    <item
+        android:id="@+id/my3"
+        android:icon="@mipmap/ic_my"
+        android:title="my3">
+
+    </item>
+</menu>
