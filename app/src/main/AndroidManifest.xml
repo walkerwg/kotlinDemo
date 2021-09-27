@@ -11,10 +11,11 @@
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".login.LoginActivity"></activity>
         <activity android:name=".thread.ThreadActivity" />
+        <activity android:name=".login.SmsCodeLoginActivity"/>
         <activity
             android:name=".tab.TabActivity"
             android:label="@string/title_activity_tab"
-            android:theme="@style/Theme.MyApplication.NoActionBar"></activity>
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
         <activity android:name=".databinding.DataBindingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -30,7 +31,7 @@
             android:theme="@style/Theme.MyApplication"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".test.weather.WeatherActivity" />
-        <activity android:name=".bottomNav.BottomNavActivity"/>
+        <activity android:name=".bottomNav.BottomNavActivity" />
     </application>
 
 </manifest>
