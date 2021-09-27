@@ -8,5 +8,12 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        //隐藏顶部actionbar
+        supportActionBar.apply {
+            this?.hide()
+        }
     }
+
+
 }
