@@ -49,6 +49,7 @@
             android:layout_weight="1"
             android:singleLine="true"
             android:maxLength="1"
+            android:inputType="number"
             />
 
         <EditText
@@ -58,6 +59,7 @@
             android:layout_weight="1"
             android:maxLength="1"
             android:singleLine="true"
+            android:inputType="number"
 
             />
 
@@ -68,6 +70,8 @@
             android:layout_weight="1"
             android:singleLine="true"
             android:maxLength="1"
+            android:inputType="number"
+
             />
 
         <EditText
@@ -77,6 +81,7 @@
             android:layout_weight="1"
             android:singleLine="true"
             android:maxLength="1"
+            android:inputType="number"
 
             />
     </androidx.appcompat.widget.LinearLayoutCompat>
