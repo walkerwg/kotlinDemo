@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".login.LoginActivity"></activity>
+        <activity android:name=".qrscan.QrScanActivity"></activity>
+        <activity android:name=".looper.LooperActivity" />
+        <activity android:name=".login.LoginActivity" />
         <activity android:name=".thread.ThreadActivity" />
-        <activity android:name=".login.SmsCodeLoginActivity"/>
+        <activity android:name=".login.SmsCodeLoginActivity" />
         <activity
             android:name=".tab.TabActivity"
             android:label="@string/title_activity_tab"
