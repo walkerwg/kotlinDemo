@@ -2,6 +2,7 @@ package com.example.myapplication.thread
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import com.example.myapplication.R
 import kotlin.concurrent.thread
@@ -13,6 +14,8 @@ class ThreadActivity : AppCompatActivity() {
         thread {
             Log.i("ThreadActivity", "dddddd" + Thread.currentThread().name)
         }
+
+
 
     }
 }
