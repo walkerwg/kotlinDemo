@@ -1,5 +1,6 @@
 package com.example.myapplication.test.weather
 
+import android.app.IntentService
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread

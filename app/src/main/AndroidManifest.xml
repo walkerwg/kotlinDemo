@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".qrscan.QrScanActivity"></activity>
+        <activity android:name=".binder.service.ServiceActivity"></activity>
+        <activity android:name=".qrscan.QrScanActivity" />
         <activity android:name=".looper.LooperActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".thread.ThreadActivity" />
@@ -34,6 +35,8 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".test.weather.WeatherActivity" />
         <activity android:name=".bottomNav.BottomNavActivity" />
+
+        <service android:name=".binder.service.RemoteService" android:exported="false"/>
     </application>
 
 </manifest>
