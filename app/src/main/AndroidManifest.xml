@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".binder.service.ServiceActivity"></activity>
+        <activity
+            android:name=".mvp.ShowTextActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shanxiaowei.modules.login.login.SXWLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sxwlogin" />
+        <activity android:name=".binder.service.ServiceActivity" />
         <activity android:name=".qrscan.QrScanActivity" />
         <activity android:name=".looper.LooperActivity" />
         <activity android:name=".login.LoginActivity" />
@@ -33,10 +40,12 @@
             android:hardwareAccelerated="true"
             android:theme="@style/Theme.MyApplication"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".test.weather.WeatherActivity" />
+        <activity android:name=".test.weatherMVVM.WeatherActivity" />
         <activity android:name=".bottomNav.BottomNavActivity" />
 
-        <service android:name=".binder.service.RemoteService" android:exported="false"/>
+        <service
+            android:name=".binder.service.RemoteService"
+            android:exported="false" />
     </application>
 
 </manifest>

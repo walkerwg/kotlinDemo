@@ -1,6 +1,5 @@
-package com.example.myapplication.test.weather
+package com.example.myapplication.test.weatherMVVM
 
-import android.nfc.Tag
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.util.Log

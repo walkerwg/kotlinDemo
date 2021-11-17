@@ -1,11 +1,6 @@
-package com.example.myapplication.test.weather
+package com.example.myapplication.test.weatherMVVM
 
-import android.app.IntentService
 import android.os.Bundle
-import android.os.Handler
-import android.os.HandlerThread
-import android.os.Looper
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
 
