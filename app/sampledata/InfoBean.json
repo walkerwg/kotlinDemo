@@ -1,0 +1,47 @@
+{
+  "info": {
+    "page": 1,
+    "results": 1,
+    "seed": "7aed050e936ddbda",
+    "version": "1.1"
+  },
+  "results": [
+    {
+      "cell": "0486-036-722",
+      "dob": "1979-04-08 06:14:29",
+      "email": "roger.holt@example.com",
+      "gender": "male",
+      "id": {
+        "name": "TFN",
+        "value": "023064228"
+      },
+      "location": {
+        "city": "port macquarie",
+        "postcode": 1650,
+        "state": "western australia",
+        "street": "3769 dogwood ave"
+      },
+      "login": {
+        "md5": "e7f8bb220a82a28ad9375081f022ff2f",
+        "password": "aaaaaaa",
+        "salt": "Q6J1Te1h",
+        "sha1": "e2ec839f88e8fdaddbb2a83877d9afd8342bf26c",
+        "sha256": "a602c4c64dc6fc1b94d6c98eedbf4383d79cd8894e21cc9f37f9fca3000cea05",
+        "username": "greenduck262"
+      },
+      "name": {
+        "first": "roger",
+        "last": "holt",
+        "title": "mr"
+      },
+      "nat": "AU",
+      "phone": "09-2659-5113",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/78.jpg"
+      },
+      "registered": "2004-12-21 07:19:21"
+    }
+  ]
+}

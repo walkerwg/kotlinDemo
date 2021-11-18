@@ -63,3 +63,34 @@ dependencies {
     implementation 'com.github.jenly1314:zxing-lite:2.1.1'
 
 }
+
+clean.doFirst {
+    println "cleanSamples"
+    def samplesDir = new File(projectDir.absolutePath,"sampledata")
+    if (samplesDir.exists()) {
+        samplesDir.deleteDir()
+    }
+}
+
+task fetchSamples {
+    println "fetchSamples"
+    def samplesDir = new File(projectDir.absolutePath,"sampledata")
+    if (samplesDir.exists()) {
+        println "samples dir already exists"
+        def json = new  File(projectDir.absolutePath,"sampledata/InfoBean.json")
+        json.withInputStream {
+            System.out.print(it.readLines())
+
+        }
+        return
+    }
+    samplesDir.mkdir()
+
+    def names = new File(samplesDir,"names")
+
+    new URL('http://path/to/names').withInputStream { i ->
+        names.withOutputStream {
+            it << i
+        }
+    }
+}
